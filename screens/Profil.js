@@ -4,7 +4,7 @@ import Screen from "../components/Screen";
 
 const Profil = () => {
     return (
-        <Screen>
+        <Screen title="Profil">
             <Text>Page Profil</Text>
         </Screen>
     );

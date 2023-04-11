@@ -4,7 +4,7 @@ import Screen from "../components/Screen";
 
 const Offre = () => {
     return (
-        <Screen>
+        <Screen title="Offre">
             <Text>Page Offres</Text>
         </Screen>
     );

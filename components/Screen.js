@@ -1,14 +1,14 @@
-import React, {useState} from 'react';
-import {View, StyleSheet, Dimensions, Image} from "react-native";
+import React from 'react';
+import {View, StyleSheet, Text} from "react-native";
 import {StatusBar} from "expo-status-bar";
-import {Svg, Ellipse} from 'react-native-svg';
 import colors from "../config/colors";
+import Logo from "./Logo";
 
-const Screen = ({children, showHeader = true}) => {
+const Screen = ({children, showHeader = true, title}) => {
     return (
         <View style={styles.container}>
             <StatusBar/>
-            {showHeader && <Header/>}
+            {showHeader && <Header title={title}/>}
             <View style={styles.screen}>
                 {children}
             </View>
@@ -18,30 +18,11 @@ const Screen = ({children, showHeader = true}) => {
 
 export default Screen;
 
+const Header = ({title}) => {
 
-const Header = () => {
-    const screenWidth = Dimensions.get('window').width;
-    const originalRadiusX = screenWidth / 2;
-    const originalRadiusY = 100;
-    const increasedRadiusX = originalRadiusX * 1.8;
     return (
-        <View
-            style={styles.SVGContainer}>
-            <Svg
-                height="160"
-                width={screenWidth}
-                viewBox={`0 0 ${screenWidth} 200`}
-                style={{position: "absolute", top: 0}}
-            >
-                <Ellipse
-                    cx={screenWidth / 2}
-                    cy="50"
-                    rx={increasedRadiusX}
-                    ry={originalRadiusY}
-                    fill={colors.primary}
-                />
-            </Svg>
-            <Image style={{marginBottom: 10}} resizeMode="contain" source={require('../assets/logo.png')}/>
+        <View style={styles.SVGContainer}>
+            <Logo title={title}/>
         </View>
     );
 }
