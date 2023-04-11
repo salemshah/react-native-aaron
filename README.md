@@ -22,15 +22,18 @@ iOS or Android device to scan the QR code displayed in the
 terminal or the Expo DevTools web page.
 This will allow you to run the app on your physical device for testing and development.
 
+## Demo
+
+![Demo GIF](./assets/anim-screen.gif)
+
 ## Screen Shot
 
-[![Video](./assets/screen1-iphone.jpg)](./assets/video.mp4)
-
 ![Screenshot](./assets/screen1-iphone.jpg)
 ![Screenshot](./assets/screen1-iphone.jpg)
 ![Screenshot](./assets/screen1-iphone.jpg)
 
-## J'ai fait ces deux logos par Photoshop 
+## J'ai fait ces deux logos par Photoshop
+
 ![Screenshot](./assets/logo.png)
 
 ![Screenshot](./assets/cup-logo.png)
