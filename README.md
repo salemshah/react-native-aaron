@@ -30,6 +30,8 @@ Cela vous permettra d'exécuter l'application sur votre appareil physique à des
 ![Screenshot](./assets/screen1-iphone.jpg)
 ![Screenshot](./assets/screen2-iphone.jpg)
 ![Screenshot](./assets/screen3-iphone.jpg)
+![Screenshot](./assets/screen4-iphone.jpg)
+![Screenshot](./assets/screen5-iphone.jpg)
 
 ## J'ai fait ces deux logos par Photoshop
 
